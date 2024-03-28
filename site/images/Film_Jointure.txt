@@ -1,0 +1,339 @@
+
+
+
+CREATE TABLE "ACTEUR" (
+	"id_acteur" PRIMARY KEY,
+	"nom",
+	"prenom"
+);
+
+INSERT INTO ACTEUR  VALUES (1, "Astier", "Alexandre");
+INSERT INTO ACTEUR  VALUES (2,  "Gainsbourg","Charlotte");
+INSERT INTO ACTEUR  VALUES (3, "Cluzet", "François");
+INSERT INTO ACTEUR  VALUES (4,"Tautou", "Audrey"); 
+INSERT INTO ACTEUR  VALUES (5, "Sy", "Omar");
+INSERT INTO ACTEUR  VALUES (6, "Lamy", "Audrey");
+INSERT INTO ACTEUR  VALUES (7, "Fleurot", "Audrey");
+INSERT INTO ACTEUR  VALUES (8, "Cornillac", "Clovis");
+INSERT INTO ACTEUR  VALUES(9, "Willis", "Bruce");
+INSERT INTO ACTEUR  VALUES(10, "Joel Osment", "Hayley");
+INSERT INTO ACTEUR  VALUES(11, "Colette", "Toni");
+INSERT INTO ACTEUR  VALUES(12, "Whalberg", "Donnie");
+INSERT INTO ACTEUR  VALUES(13, "Hopkins", "Anthony");
+INSERT INTO ACTEUR  VALUES(14, "Colman", "Olivia");
+INSERT INTO ACTEUR  VALUES(15, "Gatiss", "Mark");
+INSERT INTO ACTEUR  VALUES(16, "Winslet", "Kate");
+INSERT INTO ACTEUR  VALUES(17, "Zane", "Billy");
+INSERT INTO ACTEUR  VALUES(18, "Bates", "Kathy");
+INSERT INTO ACTEUR  VALUES(19, "Poots", "Imogen");
+INSERT INTO ACTEUR  VALUES(20, "Worthington", "Sam");
+INSERT INTO ACTEUR  VALUES(21, "Saldana", "Zoe");
+INSERT INTO ACTEUR  VALUES(22, "Weaver", "Sigourney");
+INSERT INTO ACTEUR  VALUES(23, "Lang", "Stephen");
+INSERT INTO ACTEUR  VALUES(24, "Gosling", "Ryan");
+INSERT INTO ACTEUR  VALUES(25, "Stone", "Emma");
+INSERT INTO ACTEUR  VALUES(26, "Legend", "John");
+INSERT INTO ACTEUR  VALUES(27, "Simmons", "JK");
+INSERT INTO ACTEUR  VALUES(28, "Bloom", "Orlando");
+INSERT INTO ACTEUR  VALUES(29, "Dicaprio", "Leonardo");
+INSERT INTO ACTEUR  VALUES(30, "LE NY", "Anne");
+INSERT INTO ACTEUR  VALUES(31, "Page", "Eliot");
+INSERT INTO ACTEUR  VALUES(32, "Pitt", "Brad");
+INSERT INTO ACTEUR  VALUES(33, "Norten", "Edward");
+INSERT INTO ACTEUR  VALUES(34, "Bonham Carter", "Helena");
+INSERT INTO ACTEUR  VALUES(35, "Loaf", "Meet");
+INSERT INTO ACTEUR  VALUES(36, "Craig", "Daniel");
+INSERT INTO ACTEUR  VALUES(37, "Waltz", "Christoph");
+INSERT INTO ACTEUR  VALUES(38, "Seydoux", "Léa");
+INSERT INTO ACTEUR  VALUES(39, "Fiennes", "Ralph");
+INSERT INTO ACTEUR  VALUES(40, "Kang-Ho", "Song");
+INSERT INTO ACTEUR  VALUES(41, "Choi", "Woo-Sik");
+INSERT INTO ACTEUR  VALUES(42, "So-Dam", "Park");
+INSERT INTO ACTEUR  VALUES(43, "Haye Jing", "Chang");
+INSERT INTO ACTEUR  VALUES(44, "Penn", "Sean");
+INSERT INTO ACTEUR  VALUES(45, "Pop", "iggy");
+INSERT INTO ACTEUR  VALUES(46, "Rowlands", "Genna");
+INSERT INTO ACTEUR  VALUES(47, "Mastroiani", "Chiara");
+INSERT INTO ACTEUR  VALUES(48, "Travolta", "John");
+INSERT INTO ACTEUR  VALUES(49, "Jackson", "Samuel L");
+INSERT INTO ACTEUR  VALUES(50, "Thurman", "Uma");
+INSERT INTO ACTEUR  VALUES(51, "Brody", "Adrien");
+INSERT INTO ACTEUR  VALUES(52, "Kretschmann", "Thomas");
+INSERT INTO ACTEUR  VALUES(53, "Fox", "Emilia");
+INSERT INTO ACTEUR  VALUES(54, "Stoppard", "Ed");
+INSERT INTO ACTEUR  VALUES(55, "Hanks", "Tom");
+INSERT INTO ACTEUR  VALUES(56, "Sinise", "Gary");
+INSERT INTO ACTEUR  VALUES(57, "Wright", "Robin");
+INSERT INTO ACTEUR  VALUES(58, "Willamson", "Mykelti");
+INSERT INTO ACTEUR VALUES( 59, "Sigourney", "Weaver");
+INSERT INTO ACTEUR VALUES( 60, "Tom", "Skerrit");
+INSERT INTO ACTEUR VALUES( 61, "Veronnica", "Cartwright");
+INSERT INTO ACTEUR VALUES( 62, "John", "Hurt");
+INSERT INTO ACTEUR VALUES( 63, "Bradley", "Cooper");
+INSERT INTO ACTEUR VALUES( 64, "Sienne", "Miller") ;
+INSERT INTO ACTEUR VALUES( 65, "Luke", "Grims") ;
+INSERT INTO ACTEUR VALUES( 66, "Jake", "Mc Dorman") ;
+INSERT INTO ACTEUR VALUES( 67, "Ray", "Mc Kinnon") ;
+INSERT INTO ACTEUR VALUES( 68, "Walton", "Goggins");
+INSERT INTO ACTEUR VALUES( 69, "Harrison", "Ford");
+INSERT INTO ACTEUR VALUES( 70, "Rutger", "Hauer");
+INSERT INTO ACTEUR VALUES( 71, "Sean", "Young");
+INSERT INTO ACTEUR VALUES( 72, "Daryl", "Christine");
+INSERT INTO ACTEUR VALUES( 73, "Clooney", "George");
+INSERT INTO ACTEUR VALUES( 74, "Shailene", "Woodley");
+INSERT INTO ACTEUR VALUES( 75, "Amara ", "Miller");
+INSERT INTO ACTEUR VALUES( 76, "Nick ", "Krause");
+INSERT INTO ACTEUR  VALUES (77, "Depp ", "Johnny ");
+INSERT INTO ACTEUR  VALUES(78, "Rush", "Geofrey");
+INSERT INTO ACTEUR  VALUES(79, "Bardem", "Javier");
+INSERT INTO ACTEUR  VALUES(80, "Murphy", "Cillian");
+INSERT INTO ACTEUR  VALUES(81, "Cotillard", "Marion");
+
+
+CREATE TABLE "FILM" (
+	"id_film" PRIMARY KEY,
+	"titre",
+	"annee_sortie"
+);
+
+
+INSERT INTO FILM  VALUES(1, "Intouchables", 2018);
+INSERT INTO FILM  VALUES(2, "Kaamelott",2021);
+INSERT INTO FILM  VALUES(3,"L'effrontée", 1985);
+INSERT INTO FILM  VALUES(4, "Les invisibles",2018);
+INSERT INTO FILM  VALUES(5, "Samba", 2014);
+INSERT INTO FILM  VALUES(6, "Le fabuleux destin d'Amélie Poulain", 2001);
+INSERT INTO FILM  VALUES(7, "Les chatouilles", 2018);
+INSERT INTO FILM  VALUES(8, "Demain tout commence",2016);
+INSERT INTO FILM  VALUES(9, "un long dimanche de fiancailles", 2004);
+INSERT INTO FILM  VALUES(10, "La brigade", 2022);
+INSERT INTO FILM  VALUES(11, "Parasite", 2019);
+INSERT INTO FILM  VALUES(12, "Persepolis", 2007);
+INSERT INTO FILM  VALUES(13, "Pulp Fiction", 1994);
+INSERT INTO FILM  VALUES(14, "Le Pianiste", 2002);
+INSERT INTO FILM  VALUES(15, "Forrest Gump", 1994);
+INSERT INTO FILM  VALUES(16, "Alien", "1979");
+INSERT INTO FILM  VALUES(17, "American Sniper", 2014);
+INSERT INTO FILM  VALUES(18, "The Accountant", "2001");
+INSERT INTO FILM  VALUES(19, "Blade Runner 2049", 2017);
+INSERT INTO FILM  VALUES(20, "The descendants", 2011);
+INSERT INTO FILM  VALUES(21, "007 Spectre", 2015);
+INSERT INTO FILM  VALUES(22, "Inception", 2010 );
+INSERT INTO FILM  VALUES(23, "Sixième Sens", 1999 );
+INSERT INTO FILM  VALUES(24, "Le Père", 2020 );
+INSERT INTO FILM  VALUES(25, "Titanic", 1997 );
+INSERT INTO FILM  VALUES(26, "Avatar", 2009);
+INSERT INTO FILM  VALUES(27, "La La Land", 2016 );
+INSERT INTO FILM  VALUES(28, "Pirate des Caraïbes 5", 2017 );
+INSERT INTO FILM  VALUES(29, "Fight Club", "1999");
+
+
+
+CREATE TABLE "JOUER" (
+	"id_act" REFERENCES ACTEUR(id_acteur),
+	"id_film" REFERENCES FILM(id_film),
+	"role",
+	PRIMARY KEY (id_film, id_act)
+);
+
+INSERT INTO JOUER VALUES(77, 28, "Jack Sparrow" );
+INSERT INTO JOUER VALUES(78, 28, "Le capitaine barbossa" );
+INSERT INTO JOUER VALUES(28, 28, " Will Truner " );
+INSERT INTO JOUER VALUES(79, 28, "Le capitaine Brand" );
+INSERT INTO JOUER VALUES(29, 22, "Dom Cobb" );
+INSERT INTO JOUER VALUES(81, 22, "Mall" );
+INSERT INTO JOUER VALUES(31, 22, "Ariane" );
+INSERT INTO JOUER VALUES(80, 22, "Robert Fischer" );
+INSERT INTO JOUER VALUES(9, 23, "Le docteur Malcom Crowe" );
+INSERT INTO JOUER VALUES(10, 23, "Cole Sear" );
+INSERT INTO JOUER VALUES(11, 23, "Lynn Sear" );
+INSERT INTO JOUER VALUES(12, 23, "anna Crowe" );
+INSERT INTO JOUER VALUES(13, 24, "Anthony" );
+INSERT INTO JOUER VALUES(14, 24, "Anne" );
+INSERT INTO JOUER VALUES(15, 24, "L'Homme" );
+INSERT INTO JOUER VALUES(16, 24, "Laura" );
+INSERT INTO JOUER VALUES(29, 25, "Jake Dawson" );
+INSERT INTO JOUER VALUES(17,25, "Rose Bukater" );
+INSERT INTO JOUER VALUES(18, 25, "Cal Hockley" );
+INSERT INTO JOUER VALUES(19, 25, "Molly Brown" );
+INSERT INTO JOUER VALUES(20, 26, "Jake Sully" );
+INSERT INTO JOUER VALUES(21, 26, "Neytiri" );
+INSERT INTO JOUER VALUES(22, 26, "Dr Grace Augustine" );
+INSERT INTO JOUER VALUES(23, 26, "le colonel Miles Quaritch" );
+INSERT INTO JOUER VALUES(24, 27, "Sebastian" );
+INSERT INTO JOUER VALUES(25, 27, "Mia" );
+INSERT INTO JOUER VALUES(26, 27, "Keith" );
+INSERT INTO JOUER VALUES(27, 27, "Bill" );
+INSERT INTO JOUER VALUES(3, 1, "Philipe" );
+INSERT INTO JOUER VALUES(5, 1, "Driss" );
+INSERT INTO JOUER VALUES(30, 1, "Yvonne" );
+INSERT INTO JOUER VALUES(7, 1, "Magalie" );
+INSERT INTO JOUER VALUES(32, 29, "Tyler Durden" );
+INSERT INTO JOUER VALUES(33, 29, "Narrator" );
+INSERT INTO JOUER VALUES(34, 29, "Marla Singer" );
+INSERT INTO JOUER VALUES(35, 29, "Robert" );
+INSERT INTO JOUER VALUES(36, 21, "James Bond");
+INSERT INTO JOUER VALUES(37, 21, "Ernest Starvo Blofed");
+INSERT INTO JOUER VALUES(38, 21, "Madelein Swann");
+INSERT INTO JOUER VALUES(39, 21, "M");
+INSERT INTO JOUER VALUES(40, 11, "Ki-Taek" );
+INSERT INTO JOUER VALUES(41, 11, "Ki-Woo" );
+INSERT INTO JOUER VALUES(42, 11, "Ki-Jung" );
+INSERT INTO JOUER VALUES(43, 11, "Chung-Sook" );
+INSERT INTO JOUER VALUES(44, 12, "Ebi" );
+INSERT INTO JOUER VALUES(45, 12, "Uncle Anouch" );
+INSERT INTO JOUER VALUES(46, 12, "grandmother" );
+INSERT INTO JOUER VALUES(47, 12, "Marjane" );
+INSERT INTO JOUER VALUES(48, 13, "Vincent vega" );
+INSERT INTO JOUER VALUES(49, 13, "Junne Winnfield" );
+INSERT INTO JOUER VALUES(50, 13, "Mia Wallace" );
+INSERT INTO JOUER VALUES(9, 13, "Butch Coolidge" );
+INSERT INTO JOUER VALUES(51, 14, "Wladyslaw Szpilman" );
+INSERT INTO JOUER VALUES(52, 14, "Capitaine Wilm Hosenfield" );
+INSERT INTO JOUER VALUES(53, 14, "Dorota" );
+INSERT INTO JOUER VALUES(54, 14, "Henryk" );
+INSERT INTO JOUER VALUES(55, 15, "Forrest Gump" );
+INSERT INTO JOUER VALUES(56, 15, "Le lieutenant Dan Taylor" );
+INSERT INTO JOUER VALUES(57, 15, "Jennifer Curan" );
+INSERT INTO JOUER VALUES(58, 15, "Bubba Blue" );
+INSERT INTO JOUER VALUES (59, 16, "Ellen L. Ripley");
+INSERT INTO JOUER VALUES (60, 16, "A.J. Dallas");
+INSERT INTO JOUER VALUES (61, 16, "J.M. Lambert");
+INSERT INTO JOUER VALUES (62, 16, "G.W. Kane");
+INSERT INTO JOUER VALUES (63, 17, "Chris Kyle");
+INSERT INTO JOUER VALUES (64, 17, " Taya Renae Kyle");
+INSERT INTO JOUER VALUES (65, 17, " Marc Lee");
+INSERT INTO JOUER VALUES (66, 17, "Biggles");
+INSERT INTO JOUER VALUES (67, 18, " The Accountant");
+INSERT INTO JOUER VALUES (68, 18, " Tommy O Dell");
+INSERT INTO JOUER VALUES (69, 19, " Rick Deckard");
+INSERT INTO JOUER VALUES (70, 19, " Roy Batty");
+INSERT INTO JOUER VALUES (71, 19, " Rachel");
+INSERT INTO JOUER VALUES (72, 19, " Pris");
+INSERT INTO JOUER VALUES (73, 20, " Matt King");
+INSERT INTO JOUER VALUES (74, 20, " Alexandra King");
+INSERT INTO JOUER VALUES (75, 20, " Scottie King");
+INSERT INTO JOUER VALUES (76, 20, "Sid");
+
+
+
+
+
+CREATE TABLE "REALISATEUR" (
+	"id_rea" PRIMARY KEY,
+	"nom",
+	"prenom",
+	"age"
+);
+
+INSERT INTO REALISATEUR VALUES(1, "Ronning", "Joachim", 50);
+INSERT INTO REALISATEUR VALUES(2, "Sandberg", "Espen", 51);
+INSERT INTO REALISATEUR VALUES(3, "Nolan", "Christopher", 52);
+INSERT INTO REALISATEUR VALUES(4, "Shyamalan", "Manoj", 52);
+INSERT INTO REALISATEUR VALUES(5, "Zeller", "Floriant", 43);
+INSERT INTO REALISATEUR VALUES(6, "Cameron", "James", 56);
+INSERT INTO REALISATEUR VALUES(7, "Chazelle", "Damien", 37);
+INSERT INTO REALISATEUR VALUES(8, "Toledano", "Eric", 51);
+INSERT INTO REALISATEUR VALUES (9, " Fincher", "David",60);
+INSERT INTO REALISATEUR VALUES (10, " Mendez", "Sam",57);
+INSERT INTO REALISATEUR VALUES (11, " Bonh-Jo", "Hong",53) ;
+INSERT INTO REALISATEUR VALUES (12, " Satrapi", "Marjane",52) ;
+INSERT INTO REALISATEUR VALUES (13, " Tarantino", "Quentin",59) ;
+INSERT INTO REALISATEUR VALUES (14, " Polanski", "Romain",89) ;
+INSERT INTO REALISATEUR VALUES (15, " Zemeckis", "Robert",70) ;
+INSERT INTO REALISATEUR VALUES(16, "Ridley", "Scott", 84);
+INSERT INTO REALISATEUR VALUES(17, "Clint", "Eastwood", 92);
+INSERT INTO REALISATEUR VALUES(18, "Ray", "Mc Kinnon", 64);
+INSERT INTO REALISATEUR VALUES(19, "Ridley", "Scott", 84);
+INSERT INTO REALISATEUR VALUES(20, "Alexander", "Payne", 61);
+INSERT INTO REALISATEUR VALUES(21, "Alexandre", "Astier", 48);
+INSERT INTO REALISATEUR VALUES(22, "Claude", "Miller", 0);
+INSERT INTO REALISATEUR VALUES(23, "Louis-Julien", "Petit", 39);
+INSERT INTO REALISATEUR VALUES(24, "Andrea", "Bescond", 43);
+INSERT INTO REALISATEUR VALUES(25, "Jean-Pierre", "Jeunet", 69);
+INSERT INTO REALISATEUR VALUES(26, "Olivier", "Nakache", 49);
+INSERT INTO REALISATEUR VALUES(27, "Hugo", "Gelin", 42);
+
+
+CREATE TABLE "GENRE" (
+	"id_genre" PRIMARY KEY,
+	"libelle",
+);
+INSERT INTO GENRE VALUES(1,"Comédie");
+INSERT INTO GENRE VALUES(2,"Drame");
+INSERT INTO GENRE VALUES(3,"Comédie musicale");
+INSERT INTO GENRE VALUES(4,"Thriller");
+INSERT INTO GENRE VALUES(5,"Science-fiction");
+INSERT INTO GENRE VALUES(6,"Fantastique");
+INSERT INTO GENRE VALUES(7,"Biopic");
+INSERT INTO GENRE VALUES(8,"Court Metrage");
+
+REQUETES
+1)
+SELECT COUNT(id_acteur) FROM JOUER WHERE id_film = 2 ;
+2)
+SELECT nom FROM PRIX ;
+3)
+SELECT DISTINCT REALISATEUR.nom, REALISATEUR.prenom FROM REALISATEUR
+JOIN REMISE_REA on REMISE_REA.id_rea = REALISATEUR.id_rea 
+JOIN PRIX ON REMISE_REA.id_prix = PRIX.id_prix
+WHERE PRIX.nom = " DIRECTORS GUILD OF AMERICA AWARDS" ;
+4)
+SELECT AVG(nb_prix) FROM 
+(SELECT count(id_prix) AS nb_prix FROM REMISE_ACTEUR
+Group by id_acteur);
+5)
+SELECT nom FROM FILM where date_sortie = 2011 ;
+6)
+SELECT REALISATEUR.nom, REALISATEUR.prenom FROM REALISATEUR
+JOIN FILM  ON REALISATEUR.id_rea = FILM.id_rea
+JOIN JOUER ON FILM.id_film = JOUER.id_film
+JOIN ACTEUR ON JOUER.id_acteur = ACTEUR.id_acteur
+WHERE ACTEUR.nom = "Depp ";
+7)
+SELECT date_obtention FROM REMISE_FILM
+JOIN FILM ON REMISE_FILM.id_film = FILM.id_film
+JOIN REALISATEUR ON FILM.id_rea = REALISATEUR.id_rea
+where REALISATEUR.nom = "Nolan";
+
+8)
+SELECT COUNT() FROM REMISE_FILM
+JOIN FILM ON REMISE_FILM.id_film = FILM.id_film
+WHERE FILM.nom = "Inception";
+9)
+
+SELECT FILM.nom FROM FILM
+WHERE id_film IN ( SELECT MAX(id_film)
+FROM REMISE_FILM
+Group by id_film Order by count(id_film) desc limit 1);
+10)
+SELECT role FROM JOUER
+JOIN ACTEUR ON JOUER.id_acteur = ACTEUR.id_acteur
+JOIN REMISE_ACTEUR ON ACTEUR.id_acteur = REMISE_ACTEUR.id_acteur
+JOIN PRIX on REMISE_ACTEUR.id_prix = PRIX.id_prix
+WHERE PRIX.nom = "Oscar" and REMISE_ACTEUR.date_obtention = 2017;
+11)
+SELECT FILM.nom, FILM.date_sortie FROM FILM
+JOIN REMISE_FILM ON FILM.id_film = REMISE_FILM.id_film
+JOIN PRIX ON REMISE_FILM.id_prix = PRIX.id_prix
+JOIN JOUER ON FILM.id_film = JOUER.id_film
+Join ACTEUR ON JOUER.id_acteur = ACTEUR.id_acteur
+WHERE PRIX.nom = "C�sar" AND ACTEUR.nom = "Sy";
+12)
+SELECT ACTEUR.nom, ACTEUR.age FROM ACTEUR
+JOIN JOUER ON ACTEUR.id_acteur = JOUER.id_acteur
+JOIN REMISE_ACTEUR ON JOUER.id_acteur = REMISE_ACTEUR.id_acteur
+JOIN PRIX AS prix_acteur ON prix_acteur.id_prix = REMISE_ACTEUR.id_prix
+JOIN FILM ON JOUER.id_film = FILM.id_film
+JOIN REMISE_FILM ON FILM.id_film = REMISE_FILM.id_film
+JOIN PRIX AS prix_film ON prix_film.id_prix = REMISE_FILM.id_prix
+WHERE prix_acteur.nom = "C�sar" 
+AND prix_film.nom = "Golden Globes"
+AND REMISE_ACTEUR.date_obtention = 2017;
+
+
+
+
+
+
+
